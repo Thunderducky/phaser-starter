@@ -4,6 +4,7 @@ const webpack = require("webpack");
 
 module.exports = {
   entry: {
+    // might want to switch this to __dirname eventually :)
     app: './client/src/index.js'
   },
 
